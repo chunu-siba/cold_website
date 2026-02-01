@@ -4,6 +4,7 @@ export interface Service {
   title: string;
   description: string;
   icon: string;
+  image: string;
 }
 
 export interface Review {
@@ -42,4 +43,5 @@ export interface SiteContent {
   comparisons: ProjectComparison[];
   gallery: GalleryImage[];
   heroImage: string;
+  reviewsBg: string;
 }
